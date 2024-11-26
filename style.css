@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, white, rgb(190, 189, 189), grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto Mono", serif;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.countries {
+  background-color: rgb(190, 188, 188);
+  padding: 50px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  img {
+    height: 90%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .img-container {
+    height: 200px;
+    width: 250px;
+  }
+  .info {
+    text-align: center;
+    h3 {
+      margin-bottom: 10px;
+    }
+  }
+}
+.countries:hover {
+  transform: translateY(-10px);
+}
